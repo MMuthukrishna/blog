@@ -18,4 +18,4 @@ draft = false
 
 ![answer](/image/puzzle-triangle-in-a-square-defined-by-arcs/geogebra.png)
 
-Area of the triange is $$0.04 x^2$$ where x is the length of the side of the square.
+Area of the triange is $$0.04 x^2$$ where $$x$$ is the length of the side of the square.
