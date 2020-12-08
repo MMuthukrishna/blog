@@ -1,0 +1,10 @@
+dist/
+
+.idea/
+.vscode/
+
+archive/
+content/cv/cv.log
+content/cv/cv.synctex.gz
+
+.hugo_build.lock

@@ -1,0 +1,187 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+% (c) 2011 Scott Clark <sc932@cornell.edu> http://cam.cornell.edu/~sc932
+%
+
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{hyperref}
+\robustify\cftdotfill
+
+%-----------------------------------------------------------
+%Edit these values as you see fit
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+%-----------------------------------------------------------
+%Margin setup
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{-0.25in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.75in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+    \end{shaded}
+  }\vspace{-5pt}
+}
+
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\renewcommand{\labelitemii}{$\star$}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+%-----------------------------------------------------------
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+
+\textbf{{\Large M.Muthukrishna}} & \textbf{} \\
+\texttt{krish789nan@gmail.com} &
+\\
+\textsc{9035467655} &
+\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Projects}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item
+	\ressubheading{\href{https://mmuthukrishna.github.io/blog/posts/dag-workflow-using-aws-step/}{DAG Workflow}}{}{Instamojo}{}
+	\begin{itemize}
+		\resitem{AWS Step state machine to run aggregate tasks}
+	\end{itemize}
+
+\item
+	\ressubheading{Event Table Archival}{}{Instamojo}{}
+	\begin{itemize}
+	\resitem{Service to archive old analytics events from Redshift to Redshift Spectrum.}
+	\end{itemize}
+\item
+	\ressubheading{Dashboard Personalization}{}{Instamojo}{}
+	\begin{itemize}
+		\resitem{Service to score features using vowpalwabbit model for every user and an AWS API Gateway endpoint lambda function to serve it.}
+	\end{itemize}
+
+\item
+	\ressubheading{Signzy Integration}{}{Instamojo}{}
+	\begin{itemize}
+		\resitem{Integrated with Signzy API's for PAN, Bank Account Number verification.}
+	\end{itemize}
+
+\item
+	\ressubheading{Mixpanel Event Streaming}{}{Instamojo}{}
+	\begin{itemize}
+		\resitem{Streaming MixPanel events from Kinesis Data Stream to Redshift using AWS Lambda and Kinesis Firehose.}
+	\end{itemize}
+\item
+	\ressubheading{Mixpanel Event Transformation}{}{Instamojo}{}
+	\begin{itemize}
+		\resitem{Service to transform (flatten) mixpanel events in AWS Redshift.}
+	\end{itemize}
+
+\item
+	\ressubheading{\href{https://mmuthukrishna.github.io/blog/posts/aws-step-patterns/}{Redshift to Pipedrive Service}}{}{Instamojo}{}
+	\begin{itemize}
+		\resitem{AWS Step state machine to dispatch leads from Redshift to Pipedrive (Chunked Iterator Pattern).}
+		\resitem{Used by Sales Team to reach out to Prospective Leads and Risk team for Transaction Rules Monitoring.}
+	\end{itemize}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Work}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+\item
+	\ressubheading{Instamojo}{Bengaluru, IN}{Software Engineer}{2019 - 2022}
+\end{itemize}
+
+\begin{itemize}
+\item
+	\ressubheading{Instamojo}{Bengaluru, IN}{Intern}{2019}
+\end{itemize}
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item
+	\ressubheading{PES University}{Bengaluru, IN}{B.Tech - Electronics and Communication Engineering (ECE)}{2015 - 2019}
+
+	\begin{itemize}
+		\resitem{ CGPA - 9.08}
+	\end{itemize}
+
+\item
+	\ressubheading{KLE Independent PU College}{Bengaluru, IN}{PCME - Karnataka Pre University Board}{2013 - 2015}
+	\begin{itemize}
+    \resitem{Percentage - 87.5}
+	\end{itemize}
+
+\item
+	\ressubheading{St Mira's High School}{Bengaluru, IN}{10th - ICSE Board}{2004-2013}
+	\begin{itemize}
+    \resitem{Percentage - 83.5}
+	\end{itemize}
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Skills}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item {\bf Languages :} C, C++, Python
+\item {\bf Frameworks :} Serverless, Django
+
+\end{itemize}
+
+\resheading{Personal Details}
+\begin{itemize}
+\item { Name : M.Muthukrishna}
+\item { Date of Birth : 14 December, 1997}
+\item { Gender : Male}
+\item { Nationality : Indian }
+\item { Languages : English, Kannada, Tamil }
+\end{itemize}
+
+\end{document}
