@@ -31,24 +31,19 @@ enableEmoji = true
     page = "/:slug/"
 
 [[menu.main]]
-    name = "Resume"
-    url = "/resume.pdf"
-    weight = -110
-
-[[menu.main]]
     name = "About"
     url = "/about/"
-    weight = -120
+    weight = -110
 
 [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = -130
+    weight = -120
 
 [[menu.main]]
     name = "Categories"
     url = "/categories"
-    weight = -140
+    weight = -130
 
 [params]
     description = ""
