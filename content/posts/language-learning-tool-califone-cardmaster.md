@@ -8,7 +8,7 @@ tags = ["ideas"]
 draft = false
 +++
 
-To create a language learning tool that resembles this machine
+To create a language learning android app that resembles this machine
 with multiple language pack cards.
 There should be pre-recorded cards that can be used to learn
 pronunciation of words.
