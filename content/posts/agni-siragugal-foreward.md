@@ -3,9 +3,9 @@ title = "Agni Siragugal Foreward"
 slug = "agni-siragugal-foreward"
 author = "M.Muthukrishna"
 date = 2020-12-15T09:37:54+05:30
-categories = []
-tags = []
-draft = true
+categories = ["tamil"]
+tags = ["tamil"]
+draft = false
 +++
 
 அக்னி சிறகுகள் தமிழ் பதிப்பிற்காக எழுதப்பட்டது 
