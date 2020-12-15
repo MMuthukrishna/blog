@@ -1,3 +1,2 @@
 #!/bin/bash
-rsync -avh . mk@opi4:~/
-
+rsync -avh ../blog mk@opi4:~/
