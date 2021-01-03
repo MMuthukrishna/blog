@@ -188,4 +188,4 @@ The actual State Machine Defintion looks something like this
 
 ![actual_state_machine](/image/dag-workflow-using-aws-step/actual_state_machine.png)
 
-where were are just replacing the Pass State with an Aggregate Task Map State.
+where the Pass State is replaced with an Aggregate Task Map State.
