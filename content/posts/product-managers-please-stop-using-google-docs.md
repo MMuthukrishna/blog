@@ -3,8 +3,8 @@ title = "Product Managers: Please Stop Using Google Docs"
 slug = "product-managers-please-stop-using-google-docs"
 author = "M.Muthukrishna"
 date = 2021-01-07T21:11:57+05:30
-categories = []
-tags = []
+categories = ["knowledge-repo"]
+tags = ["knowledge-repo"]
 draft = false
 +++
 
