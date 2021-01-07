@@ -34,6 +34,8 @@ A Better setup would involve each developer setting up orgroam and a script to s
 
 This setup isn't infallible either, AWS S3 Outage would make it inaccessible, but you can always setup a Rpi/NAS in office premises which can serve the static site or have cron jobs to fetch everything that exists in the S3 Bucket and run the static site on your own machine.
 
+It's always better to use softwares that lets you compose as you wish instead of a product that fails to be good at everything.
+
 To store these notes, you can also use Github, like this
 https://github.com/MMuthukrishna/blog
 
