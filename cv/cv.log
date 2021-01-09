@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.12.24)  7 JAN 2021 15:37
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.12.24)  9 JAN 2021 13:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -130,14 +130,17 @@ Overfull \vbox (18.06749pt too high) has occurred while \output is active []
 ]
 Overfull \vbox (18.06749pt too high) has occurred while \output is active []
 
- [2] (./cv.aux) ) 
+ [2]
+Overfull \vbox (18.06749pt too high) has occurred while \output is active []
+
+ [3] (./cv.aux) ) 
 Here is how much of TeX's memory you used:
  1882 strings out of 477299
  27149 string characters out of 5838337
- 334962 words of memory out of 5000000
+ 332962 words of memory out of 5000000
  21547 multiletter control sequences out of 15000+600000
  406233 words of font info for 44 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 43i,10n,49p,304b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,10n,49p,304b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.pdf (2 pages).
+Output written on cv.pdf (3 pages).
