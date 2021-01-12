@@ -194,3 +194,7 @@ where the Pass State is replaced with an Aggregate Task Map State.
 
 ![sidenote](/image/dag-workflow-using-aws-step/side_note_image.png)
 
+### Reasons for using AWS Step
+
+- I completed this project before Managed Airflow was launched by AWS in reInvent 2020.
+- AWS Step has a simple regulator, MaxConcurrency, which can set so as to ensure the total number of connections used is within the connection limit of Redshift (you can write a simple script to calculate the max number of connections used in parent level order traversal, it's not that hard).
