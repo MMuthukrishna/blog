@@ -4,3 +4,5 @@ dist/
 .vscode/
 
 archive/
+content/cv/cv.log
+content/cv/cv.synctex.gz
