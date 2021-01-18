@@ -44,9 +44,9 @@ from agg.table_j
 ...
 ```
 
-Here Task $$T_{i}$$ queries aggregate table agg.table_j.
+Here Task $$T_{i}$$ queries aggregate table agg.table_i.
 
-The aggregate table agg.table j will be updated by a Task $$T_{j}$$.  
+The aggregate table agg.table_j will be updated by a Task $$T_{j}$$.  
 So the task $$T_{j}$$ has to be executed before $$T_{i}$$.
 
 This is a simple example, in reality there are aggregate tasks whose queries
