@@ -25,13 +25,13 @@ $$ f = COUNT(x) $$
 $$ f = SUM(x) $$
 
 and that there are $$ N_{agg} $$ aggregate tasks which either append
-or reload a table in aggregate_schema (example: agg.table_one).
+or reload a table in aggregate_schema (example: `agg.table_one`).
 
 These $$ N_{agg} $$ aggregate tasks have a hierarchy.
 
-I will explain this point more clearly
+I will explain this with an example.
 
-Consider Task $$ T_{i} $$ which updates agg.table_i by executing a SQL query, whose results are either appended to agg.table_i or truncated and appended to agg.table_i (reload).
+Consider Task $$ T_{i} $$ which updates `agg.table_i` by executing a SQL query, whose results are either appended to `agg.table_i` or truncated and appended to `agg.table_i` (reload).
 
 Let the SQL query executed by Task $$ T_{i} $$ be
 
@@ -44,9 +44,9 @@ from agg.table_j
 ...
 ```
 
-Here Task $$T_{i}$$ queries aggregate table agg.table_i.
+Here Task $$T_{i}$$ queries aggregate table `agg.table_i`.
 
-The aggregate table agg.table_j will be updated by a Task $$T_{j}$$.  
+The aggregate table `agg.table_j` will be updated by a Task $$T_{j}$$.  
 So the task $$T_{j}$$ has to be executed before $$T_{i}$$.
 
 This is a simple example, in reality there are aggregate tasks whose queries
