@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.9)  31 JAN 2021 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.9)  31 JAN 2021 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,7 +309,7 @@ Package rerunfilecheck Info: Checksums for `cv.out':
 Here is how much of TeX's memory you used:
  6044 strings out of 479383
  90178 string characters out of 5875831
- 418598 words of memory out of 5000000
+ 417598 words of memory out of 5000000
  23088 multiletter control sequences out of 15000+600000
  408528 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -323,10 +323,10 @@ sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/c
 m-super/sfrm1095.pfb>
-Output written on content/cv/cv.pdf (2 pages, 114911 bytes).
+Output written on content/cv/cv.pdf (2 pages, 114930 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
