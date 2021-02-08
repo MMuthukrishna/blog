@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.9)  31 JAN 2021 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.2.8)  8 FEB 2021 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -233,7 +233,7 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count198
 \l__pdf_internal_box=\box47
 )
-No file cv.aux.
+(content/cv/cv.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
@@ -250,7 +250,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count199
 \scratchdimen=\dimen147
@@ -279,6 +279,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 64.
 LaTeX Info: Redefining \pageref on input line 64.
 LaTeX Info: Redefining \nameref on input line 64.
+
+(content/cv/cv.out) (content/cv/cv.out)
 \@outlinefile=\write3
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 66.
@@ -297,19 +299,13 @@ Overfull \vbox (18.06749pt too high) has occurred while \output is active []
 
 
 [2] (content/cv/cv.aux)
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 6044 strings out of 479383
- 90178 string characters out of 5875831
- 417598 words of memory out of 5000000
+ 6050 strings out of 479383
+ 90280 string characters out of 5875831
+ 417895 words of memory out of 5000000
  23088 multiletter control sequences out of 15000+600000
  408528 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
