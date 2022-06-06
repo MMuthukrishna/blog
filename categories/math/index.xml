@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>math on MK's Blog</title><link>https://mmuthukrishna.github.io/blog/categories/math/</link><description>Recent content in math on MK's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Dec 2020 20:22:45 +0530</lastBuildDate><atom:link href="https://mmuthukrishna.github.io/blog/categories/math/index.xml" rel="self" type="application/rss+xml"/><item><title>Puzzle: Triangle in a Square Defined by Arcs</title><link>https://mmuthukrishna.github.io/blog/posts/puzzle-triangle-in-a-square-defined-by-arcs/</link><pubDate>Tue, 08 Dec 2020 20:22:45 +0530</pubDate><guid>https://mmuthukrishna.github.io/blog/posts/puzzle-triangle-in-a-square-defined-by-arcs/</guid><description>Question Solving it using GeoGebra Area of the triange is $$0.04 x^2$$ where $$x$$ is the length of the side of the square.
+Solving it without GeoGebra Let the Quarter Circle ACD be $$C_1$$
+Let the Semi Circle with Diameter along AB be $$C_2$$
+Let the Semi Circle with Diameter along BC be $$C_3$$
+$$ C_1: x^2 + y^2 = 1 $$
+$$ C_2: (x-0.5)^2 + (y-1)^2 = 0.25 $$</description></item></channel></rss>
